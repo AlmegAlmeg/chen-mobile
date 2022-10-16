@@ -1,12 +1,13 @@
-import Header from "./components/Header/Header"
-import "./styles/main.scss"
+import Header from './components/Header/Header'
+import './styles/main.scss'
 
 function App() {
-	return (
-		<>
-			<Header />
-		</>
-	)
+  return (
+    <>
+      <Header />
+      <main className="main-content"></main>
+    </>
+  )
 }
 
 export default App
