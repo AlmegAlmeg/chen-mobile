@@ -1,0 +1,17 @@
+.brand-page {
+  .page-headline {
+    font-size: var(--fz-large);
+    font-family: var(--headline-font-family);
+    text-align: center;
+    padding: 1rem;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+  }
+}

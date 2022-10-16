@@ -1,0 +1,27 @@
+.single-product {
+  width: 23rem;
+  width: 20rem;
+  box-shadow: 0 0 5px #555;
+  padding: 1rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+
+  .limited-edition {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.3rem 0.7rem;
+    background-color: orange;
+    border-bottom-left-radius: 8px;
+  }
+
+  img {
+    width: 15rem;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+  }
+}

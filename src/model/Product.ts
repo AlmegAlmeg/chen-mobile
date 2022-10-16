@@ -1,15 +1,10 @@
-export default interface Product {
-	device: string
-	brand: string
-	image: string
-	description: string
-	limitedEdition: boolean | undefined
-	variations: Array<Variation>
-}
+import ProductVariation from './ProductVariation'
 
-type Variation = {
-	storage: number | string
-	ram: number
-	price: number
-	spacialEdition: boolean | undefined
+export default interface Product {
+  device: string
+  brand: string
+  image: string
+  description: string
+  limitedEdition: boolean | undefined
+  variations: Array<ProductVariation>
 }

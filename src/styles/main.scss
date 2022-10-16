@@ -17,8 +17,15 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--main-font-family);
 }
 
 .main-content {
-  min-height: 300vh;
+  min-height: 80vh;
+}
+
+.global-main-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem;
 }
