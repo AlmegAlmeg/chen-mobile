@@ -1,0 +1,26 @@
+.site-header {
+	background-image: linear-gradient(-20deg, var(--black) 30%, var(--purple));
+	box-shadow: 0 0 5px var(--black);
+
+	.inner-header {
+		min-height: 3rem;
+		max-width: 75rem;
+		margin: 0 auto;
+		padding: 1rem 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.site-logo a {
+			font-family: var(--headline-font-family);
+			color: #fff;
+			text-decoration: none;
+			font-size: var(--fz-large);
+			transition: color 300ms;
+
+			&:hover {
+				color: var(--white-hover);
+			}
+		}
+	}
+}

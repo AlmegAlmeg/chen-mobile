@@ -1,0 +1,48 @@
+.desktop-nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+
+	li a {
+		color: var(--white-hover);
+		text-decoration: none;
+		transition: color 300ms;
+		font-family: var(--main-font-family);
+
+		&:hover {
+			color: var(--white);
+		}
+	}
+}
+
+.mobile-nav .mobile-side-drawer {
+	position: fixed;
+	top: 5rem;
+	right: 100%;
+	list-style: none;
+
+	background-image: linear-gradient(40deg, var(--purple), var(--black));
+	padding: 1rem;
+	margin: 1rem;
+	display: grid;
+	gap: 0.5rem;
+	border-radius: 15px;
+	text-align: center;
+
+	li a {
+		color: var(--white-hover);
+		text-decoration: none;
+		transition: color 300ms;
+		font-family: var(--main-font-family);
+
+		&:hover {
+			color: var(--white);
+		}
+	}
+}
+
+.mobile-nav .mobile-side-drawer.active {
+	right: 0;
+}

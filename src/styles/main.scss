@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+	--headline-font-family: "Bebas Neue", cursive;
+	--main-font-family: "Questrial", sans-serif;
+
+	--fz-large: clamp(2rem, 3vw, 3rem);
+
+	--black: rgb(0, 0, 0);
+	--purple: rgb(103, 17, 103);
+	--white: rgb(255, 255, 255);
+	--white-hover: rgb(200, 200, 200);
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}

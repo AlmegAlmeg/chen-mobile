@@ -1,0 +1,232 @@
+{
+	"devices": [
+		{
+			"device": "Redmi Note 12 Pro",
+			"brand": "Xiaomi",
+			"image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1648123671.21955073.png",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 128,
+					"ram": 6,
+					"price": 899
+				},
+				{
+					"storage": 256,
+					"ram": 8,
+					"price": 999
+				},
+				{
+					"storage": 256,
+					"ram": 12,
+					"price": 1099
+				}
+			]
+		},
+		{
+			"device": "Iphone 14",
+			"brand": "Apple",
+			"image": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-2up-blue-220907-geo_inline.jpg.large.jpg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 128,
+					"ram": 6,
+					"price": 4599
+				},
+				{
+					"storage": 256,
+					"ram": 6,
+					"price": 5099
+				},
+				{
+					"storage": 512,
+					"ram": 8,
+					"price": 5499
+				}
+			]
+		},
+		{
+			"device": "Iphone 14 Pro",
+			"brand": "Apple",
+			"image": "https://img.zap.co.il/pics/3/4/7/8/74188743c.gif",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 6,
+					"price": 5999
+				},
+				{
+					"storage": 512,
+					"ram": 8,
+					"price": 6349
+				}
+			]
+		},
+		{
+			"device": "S22 Plus",
+			"brand": "Samsung",
+			"image": "https://d3m9l0v76dty0.cloudfront.net/system/photos/8699015/large/4bd51ea43b542de3e94c5405761ff53c.png",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 8,
+					"price": 3199
+				},
+				{
+					"storage": 256,
+					"ram": 12,
+					"price": 3799
+				}
+			]
+		},
+		{
+			"device": "S22 Ultra",
+			"brand": "Samsung",
+			"image": "https://intentional-error.com/chen-is-a-sheep",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 8,
+					"price": 3999
+				},
+				{
+					"storage": 512,
+					"ram": 12,
+					"price": 4299
+				},
+				{
+					"storage": 512,
+					"ram": 16,
+					"price": 4499
+				}
+			]
+		},
+		{
+			"device": "10 Pro 5G",
+			"brand": "One Plus",
+			"image": "https://m.media-amazon.com/images/I/61mIUCd-37L._SX679_.jpg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 128,
+					"ram": 8,
+					"price": 2799
+				},
+				{
+					"storage": 256,
+					"ram": 8,
+					"price": 2999
+				}
+			]
+		},
+		{
+			"device": "Mi 12 Pro",
+			"brand": "Xiaomi",
+			"image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-112371/Xiaomi-12-Pro-featured-image-packshot-review.jpg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 12,
+					"price": 5199
+				},
+				{
+					"storage": 512,
+					"ram": 16,
+					"price": 5599
+				},
+				{
+					"storage": "1T",
+					"ram": 18,
+					"price": 5999,
+					"spacialEdition": true
+				}
+			]
+		},
+		{
+			"device": "Nord 2 5G",
+			"brand": "One Plus",
+			"image": "https://img.zap.co.il/pics/new/88104726504c.gif",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 128,
+					"ram": 8,
+					"price": 1599
+				},
+				{
+					"storage": 256,
+					"ram": 8,
+					"price": 1899
+				}
+			]
+		},
+		{
+			"device": "7T Pro McLaren Edition",
+			"brand": "One Plus",
+			"image": "https://www.gizmochina.com/wp-content/uploads/2019/10/OnePlus-7T-Pro-5G-McLaren.jpg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"limitedEdition": true,
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 12,
+					"price": 3999
+				}
+			]
+		},
+		{
+			"device": "Mi 11 Ultra",
+			"brand": "Xiaomi",
+			"image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-76369/XiaomiMi11Ultra.jpg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 256,
+					"ram": 12,
+					"price": 4999
+				},
+				{
+					"storage": 512,
+					"ram": 16,
+					"price": 4199
+				}
+			]
+		},
+		{
+			"device": "Iphone SE (2020)",
+			"brand": "Apple",
+			"image": "https://www.smilephone.co.il/stores/20266/n/1643547738-1723384713341941.jpeg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 64,
+					"ram": 4,
+					"price": 2199
+				},
+				{
+					"storage": 256,
+					"ram": 4,
+					"price": 2799
+				}
+			]
+		},
+		{
+			"device": "S21 FE",
+			"brand": "Samsung",
+			"image": "https://www.smilephone.3547738-1723384713341941.jeg",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti illo beatae nisi. Rerum quidem aliquid quam animi voluptate harum incidunt temporibus repellat doloremque ipsum, odio cumque aliquam consequuntur iusto repellendus doloribus reprehenderit pariatur aspernatur illo aperiam quisquam dolore recusandae assumenda. Iusto, recusandae numquam ipsa maxime inventore expedita non asperiores.",
+			"variations": [
+				{
+					"storage": 128,
+					"ram": 8,
+					"price": 2999
+				}
+			]
+		}
+	]
+}
