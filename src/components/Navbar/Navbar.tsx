@@ -2,11 +2,15 @@ import { NavLink } from 'react-router-dom'
 import { Squash as Hamburger } from 'hamburger-react'
 import { getAllBrands } from '../../services/products'
 import './Navbar.scss'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Navbar(): JSX.Element {
-  const brands: Array<string> = getAllBrands()
+  const [brands, setBrands] = useState<Array<string>>(['All'])
   const width: number = window.innerWidth
+
+  useEffect(() => {
+    getAllBrands().then((res) => setBrands(['All', ...res]))
+  }, [])
 
   return width <= 900 ? MobileNavbar(brands) : DesktopNavbar(brands)
 }

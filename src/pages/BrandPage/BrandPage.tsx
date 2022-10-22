@@ -14,13 +14,14 @@ export default function BrandPage() {
 
   useEffect(() => {
     // searchRef.current.value = ''
-    setTimeout(getProducts, 2000)
+    getProducts()
   }, [brand])
 
-  function getProducts(): void {
+  async function getProducts(): Promise<void> {
+    setIsLoading(true)
     setProducts(undefined)
     if (brand) {
-      const newProd = getProductsByBrand(brand)
+      const newProd = await getProductsByBrand(brand)
 
       setProducts(() => newProd)
       setFilteredProducts(() => newProd)
