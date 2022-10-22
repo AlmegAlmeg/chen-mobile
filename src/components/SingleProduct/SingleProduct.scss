@@ -7,6 +7,10 @@
   position: relative;
   overflow: hidden;
 
+  top: 50px;
+  opacity: 0;
+  animation: fadeUp 500ms ease-in-out forwards;
+
   .limited-edition {
     position: absolute;
     right: 0;
@@ -23,5 +27,16 @@
     padding: 0.5rem;
     display: block;
     margin: auto;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    top: 50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
   }
 }

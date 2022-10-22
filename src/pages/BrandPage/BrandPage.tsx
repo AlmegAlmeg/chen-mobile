@@ -9,8 +9,10 @@ export default function BrandPage() {
   const { brand } = useParams()
   const [products, setProducts] = useState<Array<Product> | undefined>([])
   const [filteredProducts, setFilteredProducts] = useState<Array<Product> | undefined>([])
+  const searchRef = useRef('')
 
   useEffect(() => {
+    searchRef.current.value = ''
     setProducts(undefined)
     if (brand) {
       const newProd = getProductsByBrand(brand)
@@ -20,8 +22,8 @@ export default function BrandPage() {
     }
   }, [brand])
 
-  function handleChange(value: string): void {
-    value = value.toLocaleLowerCase()
+  function handleChange(): void {
+    const value = searchRef.current.value.toLocaleLowerCase()
     const filteredArr = products?.filter((prod: Product) =>
       prod.device.toLocaleLowerCase().includes(value)
     )
@@ -37,7 +39,8 @@ export default function BrandPage() {
           : `PRODUCT FROM: ${brand?.toLocaleUpperCase()}`}
       </h1>
       <input
-        onChange={(e) => handleChange(e.target.value)}
+        onChange={handleChange}
+        ref={searchRef}
         type="text"
         className="search-input"
         placeholder="Search for a device..."
