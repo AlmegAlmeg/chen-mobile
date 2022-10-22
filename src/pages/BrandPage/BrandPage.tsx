@@ -10,9 +10,14 @@ export default function BrandPage() {
   const [products, setProducts] = useState<Array<Product> | undefined>([])
   const [filteredProducts, setFilteredProducts] = useState<Array<Product> | undefined>([])
   const searchRef = useRef('')
+  const [isLoading, setIsLoading] = useState<boolean>(true)
 
   useEffect(() => {
-    searchRef.current.value = ''
+    // searchRef.current.value = ''
+    setTimeout(getProducts, 2000)
+  }, [brand])
+
+  function getProducts(): void {
     setProducts(undefined)
     if (brand) {
       const newProd = getProductsByBrand(brand)
@@ -20,16 +25,18 @@ export default function BrandPage() {
       setProducts(() => newProd)
       setFilteredProducts(() => newProd)
     }
-  }, [brand])
+    setIsLoading(false)
+  }
 
   function handleChange(): void {
-    const value = searchRef.current.value.toLocaleLowerCase()
-    const filteredArr = products?.filter((prod: Product) =>
-      prod.device.toLocaleLowerCase().includes(value)
-    )
-
-    setFilteredProducts(filteredArr)
+    // const value = searchRef.current.value.toLocaleLowerCase()
+    // const filteredArr = products?.filter((prod: Product) =>
+    // prod.device.toLocaleLowerCase().includes(value)
+    // )
+    // setFilteredProducts(filteredArr)
   }
+
+  if (isLoading) return <h1>Loading...</h1>
 
   return (
     <div className="brand-page">
@@ -40,7 +47,7 @@ export default function BrandPage() {
       </h1>
       <input
         onChange={handleChange}
-        ref={searchRef}
+        // ref={searchRef}
         type="text"
         className="search-input"
         placeholder="Search for a device..."
