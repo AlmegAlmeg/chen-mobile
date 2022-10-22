@@ -8,6 +8,14 @@
     text-decoration: underline;
   }
 
+  .search-input {
+    display: block;
+    margin: auto;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--purple);
+  }
+
   .products-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

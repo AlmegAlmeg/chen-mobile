@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { LegacyRef, useEffect, useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import SingleProduct from '../../components/SingleProduct/SingleProduct'
 import Product from '../../model/Product'
@@ -8,6 +8,7 @@ import './BrandPage.scss'
 export default function BrandPage() {
   const { brand } = useParams()
   const [products, setProducts] = useState<Array<Product> | undefined>([])
+  const [filteredProducts, setFilteredProducts] = useState<Array<Product> | undefined>([])
 
   useEffect(() => {
     setProducts(undefined)
@@ -15,8 +16,18 @@ export default function BrandPage() {
       const newProd = getProductsByBrand(brand)
 
       setProducts(() => newProd)
+      setFilteredProducts(() => newProd)
     }
   }, [brand])
+
+  function handleChange(value: string): void {
+    value = value.toLocaleLowerCase()
+    const filteredArr = products?.filter((prod: Product) =>
+      prod.device.toLocaleLowerCase().includes(value)
+    )
+
+    setFilteredProducts(filteredArr)
+  }
 
   return (
     <div className="brand-page">
@@ -25,9 +36,15 @@ export default function BrandPage() {
           ? 'ALL PRODUCTS'
           : `PRODUCT FROM: ${brand?.toLocaleUpperCase()}`}
       </h1>
+      <input
+        onChange={(e) => handleChange(e.target.value)}
+        type="text"
+        className="search-input"
+        placeholder="Search for a device..."
+      />
       <section className="products-grid global-main-content">
-        {products &&
-          products.map((product: Product, i: number) => {
+        {filteredProducts &&
+          filteredProducts.map((product: Product, i: number) => {
             return <SingleProduct key={i} product={product} />
           })}
       </section>
